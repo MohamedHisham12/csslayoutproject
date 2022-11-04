@@ -1,0 +1,12 @@
+.flexy{
+    display: flex;
+}
+
+.flexy{
+    font-style: italic;
+    display: inline;
+}
+
+ul{
+    float: left;
+}

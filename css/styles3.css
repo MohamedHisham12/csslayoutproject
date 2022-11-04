@@ -1,0 +1,118 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+.container{
+
+    width: 1000px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/*start Nav Bar*/
+
+.navbar {
+    background-color: darkgray;
+
+
+}
+.navbar .brand{
+    float: left;
+    width: 40%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+.navbar .links{
+    float: left;
+    width: 60%;
+    margin-top: 15px;
+}
+
+.navbar .links li{
+    display: inline-block;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border-bottom: 2px transparent;
+}
+.navbar .links li.active,
+.navbar .links li:hover{
+    color: firebrick;
+    font-weight: bold;
+    border-bottom: 2px solid firebrick;
+    
+}
+/*End Navbar*/
+
+.clearfix {
+    clear: both;
+}
+
+
+
+/*about section*/
+.container2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container3{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/*Fottter section*/
+
+footer{
+    bottom: 0px;
+    width: 100%;
+    background: black;
+
+}
+
+.main-content{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+.box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.box .content{
+    margin: 20px 0 0 0;
+}
+.left .content p{
+    text-align: justify;
+}
+.left .content .social{
+    margin: 20px 0 0 0;
+}
+.left .content .social a{
+    padding: 0 2px;
+}
+.left .content .social a span{
+    height: 40px;
+    width: 40px;
+    background: white;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.left .content .social a span:hover{
+    background: #f12020;
+}
